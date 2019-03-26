@@ -8,13 +8,13 @@ dir="~/photo/"
 
 #所欲爬取的URL后缀数组
 domain=(
-"\.html"
-"\.net"
-"\.org"
-"\.me"
-"\.io"
-"\.cn"
-"\.com"
+".html"
+".net"
+".org"
+".me"
+".io"
+".cn"
+".com"
 )
 
 #所欲下载文件格式数组
