@@ -8,14 +8,14 @@ dir="./"
 
 #所欲爬取的URL后缀数组
 domain=(
-".html")
+".html"
 ".net"
 ".org"
 ".me"
 ".io"
 ".cn"
 ".com"
-#)
+)
 
 #所欲下载文件格式数组
 format=(
