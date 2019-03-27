@@ -1,21 +1,21 @@
 #!/bin/bash
-#SimpleSpider.sh [URL] [num]
+#ss.sh [URL] [num]
 #[URL]:所欲爬取的起始网页
 #[num]:所要爬取的总页面数。
 
 #dir图片存放目录
-dir="~/photo/"
+dir="./"
 
 #所欲爬取的URL后缀数组
 domain=(
-".html"
+".html")
 ".net"
 ".org"
 ".me"
 ".io"
 ".cn"
 ".com"
-)
+#)
 
 #所欲下载文件格式数组
 format=(
@@ -60,7 +60,7 @@ linenum=$(cat j.txt | wc -l)
 echo -e "\033[42;37m ${linenum} files founded! \033[0m"
 while [ $i -le $linenum ]
 do
-	link=$(cat j.txt | sed -n "${i},${i}p")
+	link=$(cat /root/spider/j.txt | sed -n "${i},${i}p")
 	percent+=1
     	name=$(echo ${link##*/})    #获取此一条图片链接中文件的名字
 	k=$(cat jrecord.txt | grep -c ${name})  #检查这个文件是否在下载记录中
@@ -109,7 +109,7 @@ do
 	percent=0
 	while [ $i -le $linenum ]
 	do
-		link=$(cat j.txt | sed -n "${i},${i}p")
+		link=$(cat /root/spider/j.txt | sed -n "${i},${i}p")
 		percent+=1
 		name=$(echo ${link##*/})
         	k=$(cat jrecord.txt | grep -c ${name})
