@@ -11,4 +11,4 @@
 ## [html](https://github.com/deepwidth/PracticalCode/tree/master/html "html")
 这个文件夹里是一些html代码
 #### [ShowRunTime.html](https://github.com/deepwidth/PracticalCode/blob/master/html/ShowRunTime.html "ShowRunTime.html")
-关于此代码的用法，请参考[https://zkk.me/0x000b.html](https://zkk.me/0x000b.html "为网站添加动态显示运行时长的功能 --zkk的博客")
+这段代码可以在你的网站上动态显示网站运行时长。关于此代码的用法，请参考[https://zkk.me/0x000b.html](https://zkk.me/0x000b.html "为网站添加动态显示运行时长的功能 --zkk的博客")
