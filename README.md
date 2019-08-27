@@ -7,7 +7,8 @@
 #### [SimpleSpider.sh](https://github.com/deepwidth/PracticalCode/blob/master/sh/SimpleSpider.sh "SimpleSpider.sh")
 简单爬虫脚本（待完善），用于爬取网页上的文件
 用法：输入`./SimpleSpider.sh https://example.com/ 5`，就会爬取从`https://example.com/`开始的5个页面的文件，页面链接的后缀格式在脚本中的'domain'数组中，文件格式在'format'数组中，更改'dir'可以更改下载文件存放的目录。
-
+#### [getWhoisServer.sh](https://github.com/deepwidth/PracticalCode/blob/master/sh/getWhoisServer.sh "getWhoisServer.sh")
+一个用于从`www.iana.org`获取 Whois Server 地址的脚本
 ## [html](https://github.com/deepwidth/PracticalCode/tree/master/html "html")
 这个文件夹里是一些html代码
 #### [ShowRunTime.html](https://github.com/deepwidth/PracticalCode/blob/master/html/ShowRunTime.html "ShowRunTime.html")
