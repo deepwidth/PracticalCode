@@ -13,3 +13,8 @@
 这个文件夹里是一些html代码
 #### [ShowRunTime.html](https://github.com/deepwidth/PracticalCode/blob/master/html/ShowRunTime.html "ShowRunTime.html")
 这段代码可以在你的网站上动态显示网站运行时长。关于此代码的用法，请参考[https://zkk.me/0x000b.html](https://zkk.me/0x000b.html "为网站添加动态显示运行时长的功能 --zkk的博客")
+
+## [cfg](https://github.com/deepwidth/PracticalCode/blob/master/cfg "cfg")
+这个文件夹里存放一些`.cfg`代码
+#### [autoexec.cfg](https://github.com/deepwidth/PracticalCode/blob/master/cfg/autoexec.cfg "autoexec.cgf")
+这是我的 CS:GO 配置代码
