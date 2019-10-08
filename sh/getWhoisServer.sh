@@ -1,5 +1,6 @@
 #!/bin/bash
 # Author: deepwidth
+# Date: 27 Aug, 2019
 # Website: https://zkk.me
 # E-mail: zhang.kangkang[at]outlook.com
 
